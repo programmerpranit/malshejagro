@@ -27,6 +27,10 @@ body {
   --text: #797c7f;
 }
 
+.rsc-header-title {
+  color: white;
+}
+
 h1,
 h2,
 h3,
