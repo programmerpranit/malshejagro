@@ -22,6 +22,7 @@ const TopSection = () => {
             className="w-full h-full -z-10"
             src={"/images/malshejbg1.jpeg"}
             alt=""
+            priority
           />
         </div>
       </section>

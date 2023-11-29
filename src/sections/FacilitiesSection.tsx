@@ -4,7 +4,7 @@ import { MdSportsCricket } from "react-icons/md";
 const FacilitiesSection = () => {
   return (
     <>
-      <div className="md:p-20 p-5 pt-20 bg-accent">
+      <div id="facilities" className="md:p-20 p-5 pt-20 bg-accent">
         <h5 className="text-center">Facilities</h5>
         <br />
         <h2 className="text-center md:w-1/2 mx-auto">

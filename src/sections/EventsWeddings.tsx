@@ -4,21 +4,23 @@ import React from "react";
 const EventsWeddings = () => {
   return (
     <>
-      <div className="flex  bg-accent md:flex-row p-5 flex-col max-w-7xl items-center mx-auto my-10">
-        <div className="md:w-1/2 flex justify-evenly">
-          <div className="w-2/5">
+      <div className="flex h-full bg-accent md:flex-row p-5 flex-col max-w-7xl items-center mx-auto my-10">
+        <div className="md:w-1/2 flex justify-evenly h-full">
+          <div className="w-1/2 p-3 h-full flex-1">
             <Image
               width={500}
               height={500}
-              src={"/images/MA-events.jpg"}
+              src={"/images/wedding/prewedding.jpg"}
+              className="object-cover md:h-96 h-48 "
               alt=""
             />
           </div>
-          <div className="w-2/5">
+          <div className="w-1/2 p-3 h-full flex-1">
             <Image
               width={500}
               height={500}
-              src={"/images/MA-events.jpg"}
+              className="object-cover md:h-96 h-48"
+              src={"/images/wedding/wedding.jpg"}
               alt=""
             />
           </div>

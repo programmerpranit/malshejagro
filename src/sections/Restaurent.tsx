@@ -12,13 +12,18 @@ const Restaurent = () => {
             <h2>Let the good times roll and leave all the planning to us.</h2>
             <br />
           </div>
-          <Image src={"/images/party.jpeg"} width={700} height={700} alt="" />
+          <Image
+            src={"/images/food/food1.jpeg"}
+            width={1000}
+            height={1000}
+            alt=""
+          />
         </div>
         <div className="md:w-1/2 p-5 flex h-full flex-col justify-between">
           <Image
-            src={"/images/restaurent.jpeg"}
-            width={700}
-            height={700}
+            src={"/images/food/food2.jpeg"}
+            width={1000}
+            height={1000}
             alt=""
           />
           <br />

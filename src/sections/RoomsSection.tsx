@@ -4,7 +4,7 @@ import React from "react";
 const RoomsSection = () => {
   return (
     <>
-      <div className="py-20 p-5">
+      <div id="rooms" className="py-20 p-5">
         <h5 className="text-center">Luxury Property</h5>
         <br />
         <h2 className="text-center md:w-1/2 mx-auto">
@@ -23,31 +23,31 @@ const RoomsSection = () => {
             title="Family Room"
             desc="Relax in our spacious family room, designed for comfort and
               togetherness."
-            url=""
+            url="/familyroom"
           />
           <Room
             image="/images/bamboo-3.jpeg"
             title="Bamboo Huts"
             desc="Immerse yourself in nature's embrace within our charming Bamboo Huts."
-            url=""
+            url="/bamboohuts"
           />
           <Room
             image="/images/family-room-3.jpeg"
             title="Group Room"
             desc="Experience shared moments in our expansive group room, designed for comfort"
-            url=""
+            url="/grouproom"
           />
           <Room
             image="/images/cottage2.jpeg"
             title="Cottage"
             desc="Combining rustic elegance with modern comforts for an unforgettable stay."
-            url=""
+            url="/cottage"
           />
           <Room
             image="/images/villa-5.jpeg"
             title="AC Villa"
             desc="Indulge in luxury and comfort within our air-conditioned villa featuring exquisite design."
-            url=""
+            url="/ac-villa"
           />
         </div>
       </div>

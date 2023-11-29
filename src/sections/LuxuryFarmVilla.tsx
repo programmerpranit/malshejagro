@@ -18,7 +18,7 @@ const LuxuryFarmVilla = () => {
         </div>
         <div className="md:w-3/5 w-full flex">
           <Image
-            src={"/images/top-slider1.jpeg"}
+            src={"/images/villa/villa1.jpeg"}
             className="place-self-end w-3/5 md:-mr-32 -mr-20 md:mt-32 mt-20 z-10 object-contain"
             width={500}
             height={500}
@@ -26,7 +26,7 @@ const LuxuryFarmVilla = () => {
           />
           <Image
             className="self-start w-3/5  object-contain"
-            src={"/images/villa.jpeg"}
+            src={"/images/villa/villa2.jpeg"}
             width={500}
             height={500}
             alt=""

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface RoomProps {
@@ -24,7 +25,9 @@ const Room = ({ image, title, desc, url }: RoomProps) => {
             <h3>{title}</h3>
             <br />
             <p className="leading-5">{desc}</p>
-            <button className="my-5">View Details</button>
+            <Link href={url}>
+              <button className="my-5">View Details</button>
+            </Link>
           </div>
         </div>
       </div>

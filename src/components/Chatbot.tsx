@@ -28,18 +28,20 @@ const Chatbot = () => {
       id: "1",
       options: [
         { value: 1, label: "Rooms", trigger: "2" },
-        { value: 2, label: "Places Nearby", trigger: "3" },
+        { value: 2, label: "Facilities", trigger: "3" },
         { value: 3, label: " End", trigger: "5" },
       ],
     },
     {
       id: "2",
-      message: "Here are the list of rooms",
+      message:
+        "Here are the list of rooms. 1.Family Room 2.Bamboo Huts 3.Group Room 4.Cottage 5.AC Villa",
       trigger: "1",
     },
     {
       id: "3",
-      message: "Here are the nearby places",
+      message:
+        "We have number of activities for every age group to stay active during the vacation like Indoor Games, Outdoor Game, Swimming Pool, etc.",
       trigger: "1",
     },
     {

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -28,9 +29,21 @@ const Navbar = () => {
             navbar ? "translate-y-60" : "translate-y-0 opacity-0"
           } flex justify-center flex-col gap-5 text-center transition-all duration-300 ease-in-out`}
         >
-          <p className="text-white">Rooms</p>
-          <p className="text-white">Contact</p>
-          <p className="text-white">About</p>
+          <Link href={"/#facilities"}>
+            <p onClick={() => setNavbar(false)} className="text-white">
+              Facilities
+            </p>
+          </Link>
+          <Link href={"/#rooms"}>
+            <p onClick={() => setNavbar(false)} className="text-white">
+              Rooms
+            </p>
+          </Link>
+          <Link href={"/#contact"}>
+            <p onClick={() => setNavbar(false)} className="text-white">
+              Contact
+            </p>
+          </Link>
         </div>
       </div>
     </>

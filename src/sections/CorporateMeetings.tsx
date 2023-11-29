@@ -11,7 +11,7 @@ const CorporateMeetings = () => {
       >
         <Image
           fill
-          src={"/images/corporate-meetings.jpeg"}
+          src={"/images/hall.jpeg"}
           className="object-cover "
           alt=""
         />
