@@ -34,13 +34,6 @@ const ACVilla = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/villa-2.jpeg"}
-            className="object-contain"
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
             src={"/images/villa-5.jpeg"}
             className="object-contain"
             alt=""

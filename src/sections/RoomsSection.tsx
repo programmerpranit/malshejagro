@@ -4,18 +4,23 @@ import React from "react";
 const RoomsSection = () => {
   return (
     <>
-      <div id="rooms" className="py-20 p-5">
-        <h5 className="text-center">Luxury Property</h5>
-        <br />
-        <h2 className="text-center md:w-1/2 mx-auto">
-          Rest in Nature, Feel the class, Find your Freedom!
-        </h2>
-        <br />
-        <p className="text-center md:w-2/3 mx-auto">
-          The accommodation area is surrounded by farm on all sides, with
-          plantation as well. Our agro resort is surrounded by Sahyadri range of
-          mountains and exotic malshej ghat views.
-        </p>
+      <div
+        id="rooms"
+        className="py-20 md:p-5 bg-[url('/bg-leaf.png')] bg-opacity-25"
+      >
+        <div className="max-md:p-5">
+          <h5 className="text-center">Luxury Property</h5>
+          <br />
+          <h2 className="text-center md:w-1/2 mx-auto">
+            Rest in Nature, Feel the class, Find your Freedom!
+          </h2>
+          <br />
+          <p className="text-center md:w-2/3 mx-auto">
+            The accommodation area is surrounded by farm on all sides, with
+            plantation as well. Our agro resort is surrounded by Sahyadri range
+            of mountains and exotic malshej ghat views.
+          </p>
+        </div>
 
         <div className="flex flex-wrap md:p-5 py-10 mt-10 max-w-7xl justify-center mx-auto">
           <Room

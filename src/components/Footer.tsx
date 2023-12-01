@@ -20,10 +20,10 @@ const Footer = () => {
               Ghodemal, A/P dingore, Junnar, Dist - Pune - 421 209
             </p>
             <br />
+            <p className="text-white text-center">malshejagrotf@gmail.com</p>
             <p className="text-white text-center">
-              contact@malshejagro@gmail.com
+              +91 75587 66649 / +91 77579 23162
             </p>
-            <p className="text-white text-center">+91-7666999143</p>
             <a href="https://goo.gl/maps/5wU42miPD64KrrW46">
               <p className="text-green-400 text-center">Google Maps</p>
             </a>

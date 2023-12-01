@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </a>
         </div>
         <div className="bg-heading p-2 my-1">
-          <a href="https://wa.me/917666999143">
+          <a href="https://wa.me/917666999551">
 
             <MdOutlineWhatsapp  color={"#fff"} />
           </a>
@@ -38,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </div>
         
       </div>
+
       <Component {...pageProps} />
 
       <Chatbot/>

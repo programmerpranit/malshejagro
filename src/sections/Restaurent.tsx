@@ -4,7 +4,7 @@ import React from "react";
 const Restaurent = () => {
   return (
     <>
-      <div className="flex md:flex-row flex-col max-w-7xl items-center mx-auto my-10">
+      <div className="flex md:flex-row  flex-col max-w-7xl items-center mx-auto my-20">
         <div className="md:w-1/2 p-5">
           <div className="">
             <h5>Restaurent</h5>
@@ -34,6 +34,10 @@ const Restaurent = () => {
             of Malshej.So, gather your bros and get primed for a world-class
             bachelor party for the ages in this spectacular destination.
           </p>
+          <br />
+          <a className="w-full" href="/MenuCard.pdf" download={true}>
+            <button className="w-full">Menu Card</button>
+          </a>
           <br />
         </div>
       </div>
