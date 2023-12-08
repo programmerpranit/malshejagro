@@ -30,32 +30,7 @@ const Gallery = () => {
       <div className="p-5">
         <h1>Photo Gallery</h1>
 
-        <div className="flex flex-wrap my-5 ">
-          <Photo setImage={setImage} img="/images/ext/1.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/2.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/3.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/4.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/5.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/6.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/7.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/8.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/9.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/10.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/11.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/12.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/13.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/14.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/15.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/16.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/17.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/18.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/19.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/20.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/21.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/22.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/23.jpeg" />
-          <Photo setImage={setImage} img="/images/ext/10.jpeg" />
-        </div>
+        <div className="flex flex-wrap my-5 "></div>
       </div>
     </>
   );

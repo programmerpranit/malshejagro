@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <div className="fixed top-96 right-1">
         <div className="bg-heading p-2 my-1">
-          <a href="tel:917666999143">
+          <a href="tel:917558766649">
 
             <MdCall color={"#fff"} />
           </a>

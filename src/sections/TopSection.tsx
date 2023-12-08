@@ -1,7 +1,25 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const TopSection = () => {
+  const [image, setImage] = useState(1);
+
+  const images = [
+    "/images/top-slider1.jpg",
+    "/images/top-slider2.jpg",
+    "/images/top-slider3.jpg",
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImage((prev) => prev + 1);
+    }, 3500);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <>
       <section className="relative ">
@@ -20,7 +38,7 @@ const TopSection = () => {
           <Image
             fill
             className="w-full h-full -z-10"
-            src={"/images/malshejbg1.jpeg"}
+            src={images[image % 3]}
             alt=""
             priority
           />

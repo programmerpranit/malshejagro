@@ -13,42 +13,29 @@ const Cottage = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/cottage-1.jpeg"}
+            src={"/images/cottage/cottages1.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/cottage-2.jpeg"}
+            src={"/images/cottage/cottages2.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/cottage-3.jpeg"}
+            src={"/images/cottage/cottages3.jpg"}
             className="object-contain"
             alt=""
           />
+
           <Image
             width={500}
             height={500}
-            src={"/images/cottage-4.jpeg"}
-            className="object-contain"
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/cottage-5.jpeg"}
-            className="object-contain"
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/cottage-6.jpeg"}
+            src={"/images/cottage/cottages4.jpg"}
             className="object-contain"
             alt=""
           />

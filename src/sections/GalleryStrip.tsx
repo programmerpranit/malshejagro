@@ -10,7 +10,11 @@ const GalleryStrip = () => {
         <ZoomImage img="/images/hut1.jpeg" />
         <ZoomImage img="/images/MA11.jpeg" />
         <div className="h-40 md:w-40 flex justify-center items-center">
-          <Link href={"/gallery"}>
+          <Link
+            href={
+              "https://drive.google.com/drive/folders/1aY9hu5PNsu88NBHw884XMJhJ9PZENcjj?usp=sharing "
+            }
+          >
             <button>Gallery</button>
           </Link>
         </div>

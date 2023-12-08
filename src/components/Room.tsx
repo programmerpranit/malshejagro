@@ -15,7 +15,7 @@ const Room = ({ image, title, desc, url }: RoomProps) => {
       <div className="md:w-1/3 p-5">
         <div className="w-full bg-accent">
           <Image
-            className="max-h-80 object-cover"
+            className="max-h-60 object-cover"
             width={500}
             height={500}
             src={image}

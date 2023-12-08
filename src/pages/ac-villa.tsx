@@ -13,35 +13,50 @@ const ACVilla = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/villa-1.jpeg"}
+            src={"/images/acvilla/ac-villa7.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/villa-3.jpeg"}
+            src={"/images/acvilla/ac-villa2.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/villa-4.jpeg"}
+            src={"/images/acvilla/ac-villa3.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/villa-5.jpeg"}
+            src={"/images/acvilla/ac-villa6.jpg"}
+            className="object-contain"
+            alt=""
+          />
+
+          <Image
+            width={500}
+            height={500}
+            src={"/images/acvilla/ac-villa.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/villa-6.jpeg"}
+            src={"/images/acvilla/ac-villa4.jpg"}
+            className="object-contain"
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/acvilla/ac-villa5.jpg"}
             className="object-contain"
             alt=""
           />

@@ -9,32 +9,32 @@ const BambooHuts = () => {
       <Navbar />
       <div className="min-h-screen pt-32 p-5">
         <h1>Bamboo Huts</h1>
-        <div className="flex flex-wrap gap-5 py-10">
+        <div className="flex flex-wrap justify-center gap-5 py-10">
           <Image
             width={500}
             height={500}
-            src={"/images/bamboo-1.jpeg"}
+            src={"/images/bamboohuts/bamboo1.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/bamboo-3.jpeg"}
+            src={"/images/bamboohuts/bamboo2.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/bamboo-4.jpeg"}
+            src={"/images/bamboohuts/bamboo4.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/bamboo-5.jpeg"}
+            src={"/images/bamboohuts/bamboo3.jpg"}
             className="object-contain"
             alt=""
           />

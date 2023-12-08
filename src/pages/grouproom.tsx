@@ -13,22 +13,22 @@ const GroupRoom = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/family-room-1.jpeg"}
+            src={"/images/grouproom/group1.jpg"}
             className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/family-room-2.jpeg"}
-            className=""
+            src={"/images/grouproom/group2.jpg"}
+            className="object-contain"
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/family-room-3.jpeg"}
-            className=""
+            src={"/images/grouproom/group3.jpg"}
+            className="object-contain"
             alt=""
           />
         </div>

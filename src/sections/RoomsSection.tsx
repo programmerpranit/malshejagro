@@ -24,32 +24,32 @@ const RoomsSection = () => {
 
         <div className="flex flex-wrap md:p-5 py-10 mt-10 max-w-7xl justify-center mx-auto">
           <Room
-            image="/images/family-room-1.jpeg"
+            image="/images/family-rooms/family-room2.jpg"
             title="Family Room"
             desc="Relax in our spacious family room, designed for comfort and
               togetherness."
             url="/familyroom"
           />
           <Room
-            image="/images/bamboo-3.jpeg"
+            image="/images/bamboohuts/bamboo2.jpg"
             title="Bamboo Huts"
             desc="Immerse yourself in nature's embrace within our charming Bamboo Huts."
             url="/bamboohuts"
           />
           <Room
-            image="/images/family-room-3.jpeg"
+            image="/images/grouproom/group3.jpg"
             title="Group Room"
             desc="Experience shared moments in our expansive group room, designed for comfort"
             url="/grouproom"
           />
           <Room
-            image="/images/cottage2.jpeg"
+            image="/images/cottage/cottages3.jpg"
             title="Cottage"
             desc="Combining rustic elegance with modern comforts for an unforgettable stay."
             url="/cottage"
           />
           <Room
-            image="/images/villa-5.jpeg"
+            image="/images/acvilla/ac-villa4.jpg"
             title="AC Villa"
             desc="Indulge in luxury and comfort within our air-conditioned villa featuring exquisite design."
             url="/ac-villa"
