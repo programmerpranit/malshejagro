@@ -26,7 +26,7 @@ const Navbar = () => {
       >
         <div
           className={`${
-            navbar ? "translate-y-60" : "translate-y-0 opacity-0"
+            navbar ? "translate-y-60" : "-translate-y-60 opacity-0"
           } flex justify-center flex-col gap-5 text-center transition-all duration-300 ease-in-out`}
         >
           <Link href={"/#facilities"}>

@@ -36,12 +36,12 @@ const RoomsSection = () => {
             desc="Immerse yourself in nature's embrace within our charming Bamboo Huts."
             url="/bamboohuts"
           />
-          {/* <Room
+          <Room
             image="/images/grouproom/group3.jpg"
             title="Group Room"
             desc="Experience shared moments in our expansive group room, designed for comfort"
             url="/grouproom"
-          /> */}
+          />
           <Room
             image="/images/cottage/cottages3.jpg"
             title="Cottage"

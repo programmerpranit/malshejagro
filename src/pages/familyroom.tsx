@@ -13,21 +13,21 @@ const FamilyRoom = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/family-rooms/family-room2.jpg"}
+            src={"/images/family-rooms/family1.jpg"}
             className=""
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/family-rooms/family-room3.jpg"}
+            src={"/images/family-rooms/family2.jpg"}
             className=""
             alt=""
           />
           <Image
             width={500}
             height={500}
-            src={"/images/family-rooms/family-room1.jpg"}
+            src={"/images/g1.jpg"}
             className=""
             alt=""
           />

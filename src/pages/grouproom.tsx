@@ -31,6 +31,13 @@ const GroupRoom = () => {
             className="object-contain"
             alt=""
           />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/g1.jpg"}
+            className="object-contain"
+            alt=""
+          />
         </div>
       </div>
       <Footer />
