@@ -30,7 +30,17 @@ const Gallery = () => {
       <div className="p-5">
         <h1>Photo Gallery</h1>
 
-        <div className="flex flex-wrap my-5 "></div>
+        <div className="flex flex-wrap my-5 ">
+          <Photo img="/images/g3.jpg" setImage={setImage} />
+          <Photo img="/images/g4.jpg" setImage={setImage} />
+          <Photo img="/images/g5.jpeg" setImage={setImage} />
+          <Photo img="/images/g6.jpeg" setImage={setImage} />
+          <Photo img="/images/hall.jpeg" setImage={setImage} />
+          <Photo img="/images/food/food1.jpeg" setImage={setImage} />
+          <Photo img="/images/villa/villa2.jpeg" setImage={setImage} />
+          <Photo img="/images/g7.jpeg" setImage={setImage} />
+          <Photo img="/images/g2.jpg" setImage={setImage} />
+        </div>
       </div>
     </>
   );
@@ -47,7 +57,7 @@ const Photo = ({ setImage, img }: PhotoProps) => {
   return (
     <>
       <Image
-        className="p-3 md:w-1/4 w-1/2 cursor-pointer "
+        className="p-3 md:w-1/4 w-1/2 cursor-pointer object-contain"
         width={500}
         height={500}
         onClick={() => setImage(img)}
