@@ -27,7 +27,7 @@ const BambooHuts = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/bamboohuts/bamboo4.jpg"}
+            src={"/images/bamboohuts/chairs.jpg"}
             className="object-contain"
             alt=""
           />

@@ -21,7 +21,7 @@ const Restaurent = () => {
         </div>
         <div className="md:w-1/2 p-5 flex h-full flex-col justify-between">
           <Image
-            src={"/images/food/food2.jpeg"}
+            src={"/images/food/restaurent.jpeg"}
             width={1000}
             height={1000}
             alt=""

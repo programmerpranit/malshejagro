@@ -6,9 +6,9 @@ const GalleryStrip = () => {
   return (
     <>
       <div className="flex md:flex-row flex-col flex-wrap justify-center gap-5 my-40">
-        <ZoomImage img="/images/hut.jpeg" />
-        <ZoomImage img="/images/hut1.jpeg" />
-        <ZoomImage img="/images/MA11.jpeg" />
+        <ZoomImage img="/images/g1.jpg" />
+        <ZoomImage img="/images/g2.jpg" />
+        <ZoomImage img="/images/g3.jpg" />
         <div className="h-40 md:w-40 flex justify-center items-center">
           <Link
             href={
@@ -18,9 +18,9 @@ const GalleryStrip = () => {
             <button>Gallery</button>
           </Link>
         </div>
-        <ZoomImage img="/images/top-slider2.jpeg" />
-        <ZoomImage img="/images/malshejbg.jpeg" />
-        <ZoomImage img="/images/villa0.jpeg" />
+        <ZoomImage img="/images/g4.jpg" />
+        <ZoomImage img="/images/g5.jpeg" />
+        <ZoomImage img="/images/hall.jpeg" />
       </div>
     </>
   );

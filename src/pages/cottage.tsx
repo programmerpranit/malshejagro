@@ -39,6 +39,22 @@ const Cottage = () => {
             className="object-contain"
             alt=""
           />
+
+          <Image
+            width={500}
+            height={500}
+            src={"/images/cottage/cottage5.jpg"}
+            className="object-contain"
+            alt=""
+          />
+
+          <Image
+            width={500}
+            height={500}
+            src={"/images/cottage/cottage6.jpg"}
+            className="object-contain"
+            alt=""
+          />
         </div>
       </div>
       <Footer />
