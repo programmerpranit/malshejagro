@@ -38,14 +38,6 @@ const ACVilla = () => {
             className="object-contain"
             alt=""
           />
-
-          <Image
-            width={500}
-            height={500}
-            src={"/images/acvilla/ac-villa.jpg"}
-            className="object-contain"
-            alt=""
-          />
           <Image
             width={500}
             height={500}
@@ -57,6 +49,20 @@ const ACVilla = () => {
             width={500}
             height={500}
             src={"/images/acvilla/ac-villa5.jpg"}
+            className="object-contain"
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/acvilla/ac-villa8.jpg"}
+            className="object-contain"
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/acvilla/ac-villa.jpg"}
             className="object-contain"
             alt=""
           />

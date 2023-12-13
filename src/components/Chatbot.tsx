@@ -35,7 +35,7 @@ const Chatbot = () => {
     {
       id: "2",
       message:
-        "Here are the list of rooms. 1.Family Room 2.Bamboo Huts 3.Group Room 4.Cottage 5.AC Villa",
+        "Here are the list of rooms. 1.Cottage, 2.Ac Villa, 3.Baboo Hut, 4.Family Rooms, 5.Bunglow , 6.Group Room",
       trigger: "1",
     },
     {

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const LuxuryFarmVilla = () => {
@@ -6,7 +7,7 @@ const LuxuryFarmVilla = () => {
     <>
       <div className="flex md:flex-row p-5 flex-col-reverse max-w-7xl items-center mx-auto my-10">
         <div className="md:w-2/5 max-md:pt-10">
-          <h5>LUXURY Aminities</h5>
+          <h5>Bunglow</h5>
           <br />
           <h2>Luxury Farm Villa</h2>
           <br />
@@ -15,6 +16,10 @@ const LuxuryFarmVilla = () => {
             that you can enjoy you from your expansive, humdrum living area.It
             is a heaven in the country offering serenity.
           </p>
+          <br />
+          <Link href={"/bunglow"}>
+            <button>View Details</button>
+          </Link>
         </div>
         <div className="md:w-3/5 w-full flex">
           <Image
@@ -26,7 +31,7 @@ const LuxuryFarmVilla = () => {
           />
           <Image
             className="self-start w-3/5  object-contain"
-            src={"/images/villa/villa2.jpeg"}
+            src={"/images/villa/villa3.jpeg"}
             width={500}
             height={500}
             alt=""
