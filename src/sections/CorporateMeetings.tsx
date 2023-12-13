@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const CorporateMeetings = () => {
@@ -31,6 +32,10 @@ const CorporateMeetings = () => {
             partner with you in not only hosting your team but also be your
             event planner.
           </p>
+          <br />
+          <Link href={"/hall"}>
+            <button>View Details</button>
+          </Link>
         </div>
       </div>
     </>

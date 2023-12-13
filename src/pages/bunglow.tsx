@@ -13,6 +13,35 @@ const Cottage = () => {
           <Image
             width={500}
             height={500}
+            src={"/images/bunglow/bunglow9.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow10.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow11.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow12.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+
+          <Image
+            width={500}
+            height={500}
             src={"/images/bunglow/bunglow1.jpg"}
             className="object-contain md:w-1/4 "
             alt=""
@@ -50,34 +79,6 @@ const Cottage = () => {
             width={500}
             height={500}
             src={"/images/bunglow/bunglow8.jpg"}
-            className="object-contain md:w-1/4 "
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/bunglow/bunglow9.jpg"}
-            className="object-contain md:w-1/4 "
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/bunglow/bunglow10.jpg"}
-            className="object-contain md:w-1/4 "
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/bunglow/bunglow11.jpg"}
-            className="object-contain md:w-1/4 "
-            alt=""
-          />
-          <Image
-            width={500}
-            height={500}
-            src={"/images/bunglow/bunglow12.jpg"}
             className="object-contain md:w-1/4 "
             alt=""
           />

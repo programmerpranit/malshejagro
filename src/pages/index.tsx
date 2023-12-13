@@ -18,8 +18,8 @@ export default function Home() {
       <TopSection />
       <FacilitiesSection />
       <RoomsSection />
-      <GalleryStrip />
       <LuxuryFarmVilla />
+      <GalleryStrip />
       <Restaurent />
       <EventsWeddings />
       <CorporateMeetings />

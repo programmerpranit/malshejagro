@@ -35,7 +35,7 @@ const Restaurent = () => {
             bachelor party for the ages in this spectacular destination.
           </p>
           <br />
-          <a className="w-full" href="/MenuCard.pdf" download={true}>
+          <a className="w-full" href="/MenuCard.pdf">
             <button className="w-full">Menu Card</button>
           </a>
           <br />

@@ -24,14 +24,14 @@ const LuxuryFarmVilla = () => {
         <div className="md:w-3/5 w-full flex">
           <Image
             src={"/images/villa/villa3.jpg"}
-            className="place-self-end w-3/5 md:-mr-32 -mr-20 md:mt-32 mt-20 z-10 object-contain"
+            className="md:p-5 p-1 w-1/2 object-contain"
             width={500}
             height={500}
             alt=""
           />
           <Image
-            className="self-start w-3/5  object-contain"
-            src={"/images/villa/villa3.jpeg"}
+            className="w-1/2 p-1 object-contain"
+            src={"/images/villa/villa5.jpeg"}
             width={500}
             height={500}
             alt=""

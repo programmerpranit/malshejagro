@@ -6,7 +6,7 @@ const RoomsSection = () => {
     <>
       <div
         id="rooms"
-        className="py-20 md:p-5 bg-[url('/bg-leaf.png')] bg-opacity-25"
+        className="pt-20 md:p-5 bg-[url('/bg-leaf.png')] bg-opacity-25"
       >
         <div className="max-md:p-5">
           <h5 className="text-center">Luxury Property</h5>

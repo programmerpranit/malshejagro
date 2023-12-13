@@ -21,8 +21,8 @@ const GalleryStrip = () => {
             <button>Gallery</button>
           </Link> */}
         </div>
-        <ZoomImage img="/images/g4.jpg" />
         <ZoomImage img="/images/g5.jpeg" />
+        <ZoomImage img="/images/g4.jpg" />
         <ZoomImage img="/images/hall.jpeg" />
       </div>
     </>
