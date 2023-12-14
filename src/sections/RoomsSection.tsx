@@ -42,18 +42,17 @@ const RoomsSection = () => {
             url="/bamboohuts"
           />
           <Room
+            image="/images/grouproom/group3.jpg"
+            title="Group Room"
+            desc="Experience shared moments in our expansive group room, designed for comfort"
+            url="/grouproom"
+          />
+          <Room
             image="/images/family-rooms/family2.jpg"
             title="Family Room"
             desc="Relax in our spacious family room, designed for comfort and
               togetherness."
             url="/familyroom"
-          />
-
-          <Room
-            image="/images/grouproom/group3.jpg"
-            title="Group Room"
-            desc="Experience shared moments in our expansive group room, designed for comfort"
-            url="/grouproom"
           />
         </div>
       </div>
