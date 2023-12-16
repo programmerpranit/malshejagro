@@ -85,6 +85,35 @@ const Cottage = () => {
           <Image
             width={500}
             height={500}
+            src={"/images/bunglow/bunglow13.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow14.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow15.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow16.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+
+          <Image
+            width={500}
+            height={500}
             src={"/images/bunglow/bunglow5.jpg"}
             className="object-contain md:w-1/4 "
             alt=""
@@ -94,7 +123,7 @@ const Cottage = () => {
             height={500}
             src={"/images/bunglow/bunglow6.jpg"}
             className="object-contain md:w-1/4 "
-            alt=""
+            alt=" "
           />
         </div>
       </div>

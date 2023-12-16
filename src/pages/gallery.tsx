@@ -31,6 +31,7 @@ const Gallery = () => {
         <h1>Photo Gallery</h1>
 
         <div className="flex flex-wrap my-5 ">
+          <Photo img="/images/g22.jpg" setImage={setImage} />
           <Photo img="/images/g3.jpg" setImage={setImage} />
           <Photo img="/images/g4.jpg" setImage={setImage} />
           <Photo img="/images/g5.jpeg" setImage={setImage} />
