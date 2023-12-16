@@ -53,6 +53,9 @@ const Gallery = () => {
           <Photo img="/images/g19.jpg" setImage={setImage} />
           <Photo img="/images/g20.jpg" setImage={setImage} />
           <Photo img="/images/g21.jpg" setImage={setImage} />
+          <Photo img="/images/bamboohuts/bamboo8.jpg" setImage={setImage} />
+          <Photo img="/images/bamboohuts/bamboo9.jpg" setImage={setImage} />
+          <Photo img="/images/bamboohuts/bamboo11.jpg" setImage={setImage} />
         </div>
       </div>
     </>

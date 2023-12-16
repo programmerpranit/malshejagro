@@ -6,7 +6,7 @@ const GalleryStrip = () => {
   return (
     <>
       <div className="flex md:flex-row flex-col flex-wrap justify-center gap-5 my-40">
-        <ZoomImage img="/images/g6.jpeg" />
+        {/* <ZoomImage img="/images/g6.jpeg" /> */}
         <ZoomImage img="/images/g2.jpg" />
         <ZoomImage img="/images/g3.jpg" />
         <div className="h-40 md:w-40 flex justify-center items-center">
