@@ -107,14 +107,6 @@ const Cottage = () => {
           <Image
             width={500}
             height={500}
-            src={"/images/bunglow/bunglow16.jpg"}
-            className="object-contain md:w-1/4 "
-            alt=""
-          />
-
-          <Image
-            width={500}
-            height={500}
             src={"/images/bunglow/bunglow5.jpg"}
             className="object-contain md:w-1/4 "
             alt=""

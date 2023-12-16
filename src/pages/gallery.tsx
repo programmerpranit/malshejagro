@@ -46,9 +46,8 @@ const Gallery = () => {
           <Photo img="/images/g12.jpg" setImage={setImage} />
           <Photo img="/images/g13.jpg" setImage={setImage} />
           <Photo img="/images/g14.jpg" setImage={setImage} />
-          <Photo img="/images/g15.jpg" setImage={setImage} />
           <Photo img="/images/g16.jpg" setImage={setImage} />
-          <Photo img="/images/g17.jpg" setImage={setImage} />
+          {/* <Photo img="/images/g17.jpg" setImage={setImage} /> */}
           <Photo img="/images/g18.jpg" setImage={setImage} />
           <Photo img="/images/g19.jpg" setImage={setImage} />
           <Photo img="/images/g20.jpg" setImage={setImage} />

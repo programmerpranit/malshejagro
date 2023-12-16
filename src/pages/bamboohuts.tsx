@@ -52,13 +52,13 @@ const BambooHuts = () => {
             className="object-contain"
             alt=""
           />
-          <Image
+          {/* <Image
             width={500}
             height={500}
             src={"/images/bamboohuts/bamboo6.jpg"}
             className="object-contain"
             alt=""
-          />
+          /> */}
           <Image
             width={500}
             height={500}
@@ -73,34 +73,34 @@ const BambooHuts = () => {
             className="object-contain"
             alt=""
           />
-          <Image
+          {/* <Image
             width={500}
             height={500}
             src={"/images/bamboohuts/bamboo9.jpg"}
             className="object-contain"
             alt=""
-          />
-          <Image
+          /> */}
+          {/* <Image
             width={500}
             height={500}
             src={"/images/bamboohuts/bamboo10.jpg"}
             className="object-contain"
             alt=""
-          />
-          <Image
+          /> */}
+          {/* <Image
             width={500}
             height={500}
             src={"/images/bamboohuts/bamboo11.jpg"}
             className="object-contain"
             alt=""
-          />
-          <Image
+          /> */}
+          {/* <Image
             width={500}
             height={500}
             src={"/images/bamboohuts/bamboo12.jpg"}
             className="object-contain"
             alt=""
-          />
+          /> */}
         </div>
       </div>
       <Footer />
