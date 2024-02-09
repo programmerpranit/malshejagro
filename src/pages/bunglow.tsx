@@ -63,6 +63,13 @@ const Cottage = () => {
           <Image
             width={500}
             height={500}
+            src={"/images/bunglow/bunglow17.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=""
+          />
+          <Image
+            width={500}
+            height={500}
             src={"/images/bunglow/bunglow3.jpg"}
             className="object-contain md:w-1/4 "
             alt=""
@@ -115,6 +122,13 @@ const Cottage = () => {
             width={500}
             height={500}
             src={"/images/bunglow/bunglow6.jpg"}
+            className="object-contain md:w-1/4 "
+            alt=" "
+          />
+          <Image
+            width={500}
+            height={500}
+            src={"/images/bunglow/bunglow18.jpg"}
             className="object-contain md:w-1/4 "
             alt=" "
           />
